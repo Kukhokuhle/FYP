@@ -15,8 +15,8 @@
 Abstract
 --------
 The code was written for the STM32F0. The function of the code is to produce two PWM signals - with one being inverted.
-The PWM signal are produces using timer 2 at PB4, PB10 and PB11. The resulting signals have a 3.3V peak to peak voltage at a
-frequency of 100kHz.
+The PWM signal are produces using timer 2 and 3 at PB4, PB10 and PB11. The resulting signals have a 3.3V peak to peak voltage at a
+frequency of 105kHz and 50Hz
 */
 
 int main(void)
